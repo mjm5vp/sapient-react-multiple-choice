@@ -1,0 +1,55 @@
+div {
+  width: 100%;
+}
+
+.mainCard {
+  width: 80%;
+  height: 300px;
+  margin:auto;
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+.topCardStyle {
+  width: 100%;
+  height: 35px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.cardTitleStyle {
+  text-align: center;
+}
+
+.cardActionsStyle {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+
+.buttonStyle {
+  width: 10%;
+  margin: 5%;
+  justify-content: center;
+}
+.prevArrow {
+  /*width: 90%;*/
+}
+
+.step {
+  text-align: right;
+  margin: 2%;
+  color: gray;
+  font-size: 15px;
+}
+
+.prevArrow img {
+  margin: 2%;
+  height: 30px;
+  width: 30px;
+}
+
+.prevArrow img:hover {
+  cursor: pointer
+}
